@@ -1,6 +1,6 @@
 from hopex.constant.definition import Culture
 
-HOPEX_URL_PRO = "https://devapi2.hopex.com"
+HOPEX_URL_PRO = "https://api2.hopex.com"
 
 
 class RestApiDefine:

@@ -385,11 +385,11 @@ class RestfulTestCaseSeq:
 
 if __name__ == "__main__":
     test_case = RestfulTestCaseSeq()
-    test_case.test_account()
+    # test_case.test_account()
     test_case.test_home()
     test_case.test_market()
-    test_case.test_trade()
-    test_case.test_wallet()
+    # test_case.test_trade()
+    # test_case.test_wallet()
 
     print("\n\n==================api execute sequence=========================")
     TimeCost.output_sort_cost(by_key_name="", is_sorted=False)
