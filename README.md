@@ -16,7 +16,6 @@ This is Hopex Python SDK, you can import to your python project and use this SDK
     - [Account](#account)
     - [Wallet](#wallet)
     - [Trading](#trading)
-    - [Margin Loan](#margin-loan)
 
 
 
