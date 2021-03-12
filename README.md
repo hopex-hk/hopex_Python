@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/hopex-hk/hopex_Python.svg?branch=main)](https://travis-ci.com/hopex-hk/hopex_Python)
 # Hopex Python SDK 
 
 This is Hopex Python SDK, you can import to your python project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking.
