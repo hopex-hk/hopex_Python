@@ -66,8 +66,8 @@ This SDK provides examples that under **/example** folder, if you want to run th
 2. Create **privateconfig.py** into your **Hopex** folder. The purpose of this file is to prevent submitting SecretKey into repository by accident, so this file is already added in the *.gitignore* file. 
 3. Assign your API access key and secret key to as below:
 ```python
-t_api_key = "hrf5gdfghe-e74bebd8-2f4a33bc-e7963"
-t_secret_key = "fecbaab2-35befe7e-2ea695e8-67e56"
+t_api_key = "a54bf64e-e0b5-4f91-8516-cc6dfc473946"
+t_secret_key = "6yJoD76GzpcJUME5SDnCqxUG3oxyJHht"
 ```
 
 If you don't need to access private data, you can ignore the API key.
