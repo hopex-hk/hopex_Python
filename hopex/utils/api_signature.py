@@ -8,11 +8,8 @@ from hopex.constant.system import HttpMethod
 
 
 def create_signature(api_key, secret_key, request_method, request_path, builder):
-    payload = dict()
-    if request_method == HttpMethod.GET:
-        payload = json.dumps(builder.param_map, indent=4, ensure_ascii=False)
-    elif request_method == HttpMethod.POST:
-        payload = json.dumps(builder.post_map, indent=4, ensure_ascii=False)
+    payload = json.dumps(builder.post_map, indent=4, ensure_ascii=False) \
+        if request_method == HttpMethod.POST else json.dumps(dict(), indent=4, ensure_ascii=False)
 
     date = utc_now()
     # print(date)
